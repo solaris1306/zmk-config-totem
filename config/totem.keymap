@@ -142,7 +142,7 @@
             bindings = <
        &kp TAB       &kp T         &kp E         &kp Q         &none           &none  &none  &none  &none  &none
        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &none  &none  &none  &none  &none
-&to 0  &none         &kp I         &kp C         &kp Z         &none           &none  &none  &none  &none  &none  &none
+&to 0  &kp A         &kp I         &kp C         &kp Z         &none           &none  &none  &none  &none  &kp KP_NUMBER_3  &kp KP_NUMBER_4
                                    &kp ESCAPE    &kt LEFT_ALT  &kp SPACE       &none  &none  &none
             >;
         };
