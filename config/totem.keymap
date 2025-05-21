@@ -140,9 +140,9 @@
 
         layer_5 {
             bindings = <
-       &kp TAB       &kp T         &kp E         &kp Q         &none           &none  &none  &none  &none  &none
-       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &none  &none  &none  &none  &none
-&to 0  &kp A         &kp I         &kp C         &kp Z         &none           &none  &none  &none  &none  &kp KP_NUMBER_3  &kp KP_NUMBER_4
+       &kp TAB       &kp T         &kp E         &kp Q         &kp F           &none  &none  &none  &kp KP_NUMBER_7  &kp KP_NUMBER_2
+       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &none  &none  &none  &kp KP_NUMBER_6  &kp KP_N1
+&to 0  &kp A         &kp I         &kp C         &kp Z         &none           &none  &none  &none  &kp KP_NUMBER_5  &kp KP_NUMBER_3  &kp KP_NUMBER_4
                                    &kp ESCAPE    &kp LEFT_ALT  &kp SPACE       &none  &none  &none
             >;
         };
