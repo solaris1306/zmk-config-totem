@@ -152,7 +152,16 @@
                       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5              &none  &none  &none  &none  &kp C
                       &kp Q         &kp W         &kp E           &kp R         &kp T               &none  &none  &none  &none  &kp G
 &kp LS(LEFT_CONTROL)  &kp LC(P)     &kp TAB       &kp I           &kp V         &kp ESCAPE          &none  &none  &none  &none  &kp P  &to 5
-                                                  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL    &none  &none  &none
+                                                  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL    &to 7  &none  &none
+            >;
+        };
+
+        WOW {
+            bindings = <
+        &kp TAB  &kp N5  &kp N6            &kp N7          &kp N8       &trans  &trans  &trans  &trans  &trans
+        &kp M    &kp N1  &kp N2            &kp N3          &kp N4       &trans  &trans  &trans  &trans  &trans
+&trans  &kp B    &kp N9  &kp N0            &kp MINUS       &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
