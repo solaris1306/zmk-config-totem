@@ -140,10 +140,10 @@
 
         D4 {
             bindings = <
-       &kp TAB       &kp T         &kp E         &kp Q         &kp F           &none  &none  &none  &none  &none
-       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &none  &none  &none  &none  &none
-&to 0  &kp A         &kp I         &kp C         &kp Z         &none           &none  &none  &none  &none  &none  &to 6
-                                   &kp ESCAPE    &kp LEFT_ALT  &kp SPACE       &none  &none  &none
+       &kp TAB       &kp T         &kp E         &kp Q         &kp F             &none  &none  &none  &none  &none
+       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &none  &none  &none  &none  &none
+&to 0  &kp A         &kp I         &kp C         &kp Z         &kp LEFT_SHIFT    &none  &none  &none  &none  &none  &to 6
+                                   &kp ESCAPE    &kp LEFT_ALT  &kp SPACE         &none  &none  &none
             >;
         };
 
