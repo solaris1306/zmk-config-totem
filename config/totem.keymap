@@ -149,10 +149,10 @@
 
         POE {
             bindings = <
-              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp N5              &none  &none  &none  &none  &kp C
-              &kp Q         &kp W         &kp E         &kp R                 &kp T               &none  &none  &none  &none  &kp G
-&kp LEFT_ALT  &kp LC(P)     &kp TAB       &kp I         &kp V                 &kp LEFT_SHIFT      &none  &none  &none  &none  &kp P  &to 5
-                                          &kp ESC       &kp LS(LEFT_CONTROL)  &kp LEFT_CONTROL    &to 7  &none  &none
+              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5                  &none  &none  &none  &none  &kp C
+              &kp Q         &kp W         &kp E         &kp R             &kp T                   &none  &none  &none  &none  &kp G
+&kp LEFT_ALT  &kp LC(P)     &kp TAB       &kp I         &kp V             &kp LEFT_SHIFT          &none  &none  &none  &none  &kp P  &to 5
+                                          &kp ESC       &kp LEFT_CONTROL  &kp LS(LEFT_CONTROL)    &to 7  &none  &none
             >;
         };
 
