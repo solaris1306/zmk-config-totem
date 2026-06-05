@@ -140,19 +140,19 @@
 
         D4 {
             bindings = <
-       &kp TAB       &kp T         &kp E         &kp Q         &kp F           &none  &none  &none  &none  &none
-       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &none  &none  &none  &none  &none
-&to 0  &kp A         &kp I         &kp C         &kp Z         &none           &none  &none  &none  &none  &none  &to 6
-                                   &kp ESCAPE    &kp LEFT_ALT  &kp SPACE       &none  &none  &none
+       &kp TAB       &kp T         &kp E         &kp Q         &kp F             &none  &none  &none  &none  &none
+       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5            &none  &none  &none  &none  &none
+&to 0  &kp A         &kp I         &kp C         &kp Z         &kp LEFT_SHIFT    &none  &none  &none  &none  &none  &to 6
+                                   &kp ESCAPE    &kp LEFT_ALT  &kp SPACE         &none  &none  &none
             >;
         };
 
         POE {
             bindings = <
-                      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5              &none  &none  &none  &none  &kp C
-                      &kp Q         &kp W         &kp E           &kp R         &kp T               &none  &none  &none  &none  &kp G
-&kp LS(LEFT_CONTROL)  &kp LC(P)     &kp TAB       &kp I           &kp V         &kp ESCAPE          &none  &none  &none  &none  &kp P  &to 5
-                                                  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL    &to 7  &none  &none
+              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5                  &none  &none  &none  &none  &kp C
+              &kp Q         &kp W         &kp E         &kp R             &kp T                   &none  &none  &none  &none  &kp G
+&kp LEFT_ALT  &kp LC(P)     &kp TAB       &kp I         &kp V             &kp LEFT_SHIFT          &none  &none  &none  &none  &kp P  &to 0
+                                          &kp ESC       &kp LEFT_CONTROL  &kp LS(LEFT_CONTROL)    &to 7  &none  &none
             >;
         };
 
