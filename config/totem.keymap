@@ -167,10 +167,10 @@
 
         POE2WASD {
             bindings = <
-       &none      &kp Q  &kp W  &kp E  &none        &none  &none  &none  &none  &none
-       &kp LCTRL  &kp A  &kp S  &kp D  &none        &none  &none  &none  &none  &none
-&none  &none      &none  &none  &none  &none        &none  &none  &none  &none  &none  &to 8
-                         &none  &kp F  &kp SPACE    &none  &none  &none
+           &none      &kp N1  &kp W    &kp N2  &none        &none  &none  &none  &none  &none
+           &kp LCTRL  &kp A   &kp S    &kp D   &none        &none  &none  &none  &none  &none
+&kp LS(T)  &none      &none   &none    &none   &none        &none  &none  &none  &none  &none  &to 8
+                              &kp ESC  &kp F   &kp SPACE    &none  &none  &none
             >;
         };
 
