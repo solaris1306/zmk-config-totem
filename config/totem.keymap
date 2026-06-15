@@ -169,7 +169,7 @@
             bindings = <
            &kp TAB    &kp N1  &kp W    &kp N2  &kp U        &none  &none  &none  &none  &none
            &kp LCTRL  &kp A   &kp S    &kp D   &kp G        &none  &none  &none  &none  &none
-&kp LS(T)  &kp TAB    &kp C   &kp I    &none   &none        &none  &none  &none  &none  &none  &to 8
+&kp LS(T)  &kp TAB    &kp C   &kp I    &none   &none        &none  &none  &none  &none  &none  &to 0
                               &kp ESC  &kp F   &kp SPACE    &none  &none  &none
             >;
         };
