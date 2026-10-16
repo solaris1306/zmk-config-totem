@@ -169,7 +169,7 @@
             bindings = <
            &kp TAB    &kp N1  &kp W    &kp N2  &kp U        &none  &none  &none  &none  &none
            &kp LCTRL  &kp A   &kp S    &kp D   &kp G        &none  &none  &none  &none  &none
-&kp LS(T)  &kp TAB    &kp C   &kp I    &none   &none        &none  &none  &none  &none  &none  &to 0
+&kp LS(T)  &kp TAB    &kp C   &kp I    &none   &none        &none  &none  &none  &none  &none  &to 9
                               &kp ESC  &kp F   &kp SPACE    &none  &none  &none
             >;
         };
@@ -178,8 +178,17 @@
             bindings = <
             &kp TAB  &kp N5  &kp N6            &kp N7          &kp N8       &trans  &trans  &trans  &trans  &trans
             &kp M    &kp N1  &kp N2            &kp N3          &kp N4       &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp B    &kp N9  &kp N0            &kp MINUS       &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp B    &kp N9  &kp N0            &kp MINUS       &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &to 10
                              &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE    &trans  &trans  &trans
+            >;
+        };
+
+        WOW2 {
+            bindings = <
+         &kp C    &kp C                 &kp I             &kp N             &kp M        &trans  &trans  &trans  &trans  &trans
+         &kp TAB  &kp LS(LEFT_CONTROL)  &kp LS(LEFT_ALT)  &kp LC(LEFT_ALT)  &kp M        &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp TAB  &kp LEFT_SHIFT        &kp LCTRL         &kp LEFT_ALT      &kp SPACE    &trans  &trans  &trans  &trans  &trans  &to 0
+                                        &kp ESC           &kp ESC           &kp ESC      &trans  &trans  &trans
             >;
         };
     };
