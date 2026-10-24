@@ -185,10 +185,10 @@
 
         WOW2 {
             bindings = <
-         &kp C    &kp C                 &kp I             &kp N             &kp M        &trans  &trans  &trans  &trans  &trans
-         &kp TAB  &kp LS(LEFT_CONTROL)  &kp LS(LEFT_ALT)  &kp LC(LEFT_ALT)  &kp M        &trans  &trans  &trans  &trans  &trans
+         &kp C    &kp C                 &kp B             &kp I             &kp SPACE    &trans  &trans  &trans  &trans  &trans
+         &kp M    &kp LS(LEFT_CONTROL)  &kp LS(LEFT_ALT)  &kp LC(LEFT_ALT)  &kp SPACE    &trans  &trans  &trans  &trans  &trans
 &kp ESC  &kp TAB  &kp LEFT_SHIFT        &kp LCTRL         &kp LEFT_ALT      &kp SPACE    &trans  &trans  &trans  &trans  &trans  &to 0
-                                        &kp ESC           &kp ESC           &kp ESC      &trans  &trans  &trans
+                                        &kp C             &kp B             &kp I        &trans  &trans  &trans
             >;
         };
     };
